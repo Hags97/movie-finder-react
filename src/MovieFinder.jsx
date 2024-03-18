@@ -3,7 +3,7 @@ import { useState } from "react";
 export const MovieFinder = () => 
 {
     const urlBase = 'https://api.themoviedb.org/3/search/movie';
-    const API_KEY = 'c36a0e71182cc21281a7025cdc93d2c7';
+    const API_KEY = '*********************************';
 
     const [movie, setMovie] = useState('');
     const [infoMovie, setInfoMovie] = useState([]);
